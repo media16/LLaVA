@@ -3,6 +3,7 @@ import argparse
 import requests
 import base64
 import torch
+import os
 from PIL import Image
 from io import BytesIO
 from transformers import TextIteratorStreamer
